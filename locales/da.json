@@ -1,0 +1,66 @@
+{
+    "Shop": {
+        "Name": "Politiets udstyr",
+        "Open": "Åbn politiets udstyrsbutik"
+    },
+    "Locker": {
+        "Open": "Åbn politiets våbenkammer",
+        "Title": "Våbenskab",
+        "TakeWeapon": "Tag våben",
+        "Price": "Pris: %s kr.",
+        "ChooseAnotherWeapon": "Vælg et andet våben",
+        "NoAccess": "Ingen adgang",
+        "OutOfStock": "Ikke på lager"
+    },
+    "Weapons": {
+        "CombatPistol": "Kamppistol",
+        "PumpShotgun": "Pumpehaglgevær",
+        "CarbineRifleMk2": "Karabin Mk II"
+    },
+    "Attachments": {
+        "Flashlight": "Lygte",
+        "Grip": "Greb",
+        "HolographicSight": "Holografisk sigte",
+        "Suppressor": "Lyddæmper",
+        "Mounted": "Monteret",
+        "Unmounted": "Ikke monteret",
+        "Price": "%s · +%s kr."
+    },
+    "Restock": {
+        "Action": "Genopfyld",
+        "Title": "Hvad skal genopfyldes?",
+        "All": "Genopfyld alt",
+        "AllDescription": "Fyld hele våbenskabet op igen",
+        "AlreadyInStock": "Allerede på lager",
+        "Success": "Lageret er genopfyldt",
+        "Usage": "Brug /restock <spiller-ID eller karakter-ID>"
+    },
+    "Common": {
+        "Back": "Tilbage",
+        "ThousandsSeparator": ".",
+        "Refund": "Refusion for våbenkøb"
+    },
+    "Errors": {
+        "OpenLocker": "Våbenskabet kunne ikke åbnes",
+        "Preview": "Våbnet kunne ikke vises",
+        "Purchase": "Købet kunne ikke gennemføres",
+        "Restock": "Lageret kunne ikke genopfyldes",
+        "SelfRestock": "Du kan ikke genopfylde dit eget lager",
+        "OfficerNotFound": "Ingen politibetjent fundet med det ID",
+        "DatabaseUnavailable": "Våbenkammerets database er ikke klar",
+        "Schema": "Våbenkammerets databasetabel kunne ikke klargøres",
+        "StockBusy": "Lageret er optaget. Prøv igen.",
+        "StockUpdate": "Lageret kunne ikke opdateres",
+        "StockInvalid": "Ugyldige lagerdata for %s",
+        "StockInit": "Lageret kunne ikke oprettes for %s",
+        "StockReserve": "Lageret kunne ikke reserveres for %s",
+        "StockRestore": "Lageret kunne ikke gendannes for %s",
+        "OutOfStock": "Våbnet er ikke på lager",
+        "AttachmentUnavailable": "Det valgte tilbehør er ikke tilgængeligt",
+        "CannotCarry": "Der er ikke plads til våbnet, eller det er ikke tilgængeligt",
+        "InsufficientFunds": "Du har ikke råd til våbnet",
+        "Payment": "Betalingen mislykkedes",
+        "Refund": "Refusion mislykkedes for %s (beløb: %d, konto: %s)",
+        "EquipmentMissing": "Udstyret %s mangler i ox_inventory"
+    }
+}

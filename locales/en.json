@@ -1,0 +1,66 @@
+{
+    "Shop": {
+        "Name": "Police equipment",
+        "Open": "Open police equipment shop"
+    },
+    "Locker": {
+        "Open": "Open police weapon locker",
+        "Title": "Weapon locker",
+        "TakeWeapon": "Take weapon",
+        "Price": "Price: DKK %s",
+        "ChooseAnotherWeapon": "Choose another weapon",
+        "NoAccess": "No access",
+        "OutOfStock": "Out of stock"
+    },
+    "Weapons": {
+        "CombatPistol": "Combat Pistol",
+        "PumpShotgun": "Pump Shotgun",
+        "CarbineRifleMk2": "Carbine Rifle Mk II"
+    },
+    "Attachments": {
+        "Flashlight": "Flashlight",
+        "Grip": "Grip",
+        "HolographicSight": "Holographic sight",
+        "Suppressor": "Suppressor",
+        "Mounted": "Attached",
+        "Unmounted": "Detached",
+        "Price": "%s · +DKK %s"
+    },
+    "Restock": {
+        "Action": "Restock",
+        "Title": "What should be restocked?",
+        "All": "Restock all",
+        "AllDescription": "Replenish the entire weapon locker",
+        "AlreadyInStock": "Already in stock",
+        "Success": "Stock replenished",
+        "Usage": "Use /restock <server ID or character identifier>"
+    },
+    "Common": {
+        "Back": "Back",
+        "ThousandsSeparator": ",",
+        "Refund": "Armory purchase refund"
+    },
+    "Errors": {
+        "OpenLocker": "The weapon locker could not be opened",
+        "Preview": "The weapon preview could not be loaded",
+        "Purchase": "The purchase could not be completed",
+        "Restock": "Stock could not be replenished",
+        "SelfRestock": "You cannot replenish your own stock",
+        "OfficerNotFound": "No police officer was found with that ID",
+        "DatabaseUnavailable": "The armory database is unavailable",
+        "Schema": "The armory database table could not be set up",
+        "StockBusy": "Stock is busy. Try again.",
+        "StockUpdate": "Stock could not be updated",
+        "StockInvalid": "Invalid armory stock for %s",
+        "StockInit": "Could not create armory stock for %s",
+        "StockReserve": "Could not reserve armory stock for %s",
+        "StockRestore": "Could not restore armory stock for %s",
+        "OutOfStock": "This weapon is out of stock",
+        "AttachmentUnavailable": "The selected attachment is unavailable",
+        "CannotCarry": "Your inventory is full or the weapon is unavailable",
+        "InsufficientFunds": "You cannot afford this weapon",
+        "Payment": "The payment failed",
+        "Refund": "Refund failed for %s (amount: %d, account: %s)",
+        "EquipmentMissing": "Equipment item %s is missing from ox_inventory"
+    }
+}
